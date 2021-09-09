@@ -1,0 +1,408 @@
+
+/* nav bar */
+.menu
+{
+    float: right;
+    list-style-type: none; 
+    padding-top: 10px;
+   
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 20px;
+    border:1px solid gray;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:rgb(182, 169, 169);
+    color:#000;
+}
+
+/* logo */
+
+
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width: 100%;
+}
+.navbar{
+    width:1200px;
+    height: 75px;
+    margin:auto;
+}
+.icon{
+    width:200px;
+    float: left;
+    height:70px;
+}
+.logo{
+    color:black;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+/* wecome text */
+
+.content{
+    width: 1200px;
+    height:auto;
+    margin:auto;
+    color:hsl(210, 11%, 7%);
+    position: relative;
+    padding-top: 200px;
+    line-height: 50px;
+}
+.content .par{
+    
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+/* picture */
+.picture{
+    position:absolute;
+    top:-20px;
+    left: 770px;
+    border-radius: 10px;
+    padding:25px;
+    padding-top: 100px;
+
+}
+img {
+    border-radius: 50%;
+  }
+  img:hover {
+    box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.5);
+}
+
+.about{
+    justify-content: center;
+    display: flex;
+    padding-top: 280px;
+}
+/* about */
+.course{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 250px;
+    background-image: url(pic5.jpg);
+    margin-top: 250px;
+    height:450px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+        
+}
+.heading{
+    margin-top: -200px;
+    position: relative;
+}
+
+p{ 
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    flex-basis: 51%;
+    background: #e7dbdb;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.col:hover{
+    box-shadow: 0 0 50px 20px rgba(190, 42, 42, 0.2);
+}
+.col p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* education */
+.edu{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 600px;
+    
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{ 
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.sch{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.edu-clg{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.edu-clg:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+
+/* achivements */
+.ach{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 250px;
+    background-image: url(pic5.jpg);
+    margin-top: 250px;
+    height:450px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.heading2{
+    margin-top: -200px;
+    position: relative;
+}
+
+
+p{ 
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.cmp{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.ach-int{
+    flex-basis: 31%;
+    background: #e7dfdf;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.ach-int:hover{
+    box-shadow: 0 0 50px 20px rgba(207, 17, 17, 0.2);
+}
+
+/* skills */
+.skill{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 600px;
+    
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{ 
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.scl{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-py{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.skill-py:hover{
+    box-shadow: 0 0 50px 0px rgba(14, 11, 11, 0.2);
+}
+
+/* contact */
+.con{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 250px;
+    background-image: url(pic5.jpg);
+    margin-top: 250px;
+    height:450px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.heading3{
+    margin-top: -200px;
+    position: relative;
+}
+
+
+p{ 
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.cct{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.con-ph{
+    flex-basis: 30%;
+    background: #e7dfdf;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.con-ph:hover{
+    box-shadow: 0 0 50px 20px rgba(207, 17, 17, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(7, 6, 6);
+    color: rgb(12, 10, 10);
+    height: 200px
+  }
+
+  /* social icon */
+  .fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  
+  
+
+
+/* animation */
+/* #landing{
+  width: 0px;
+  height: 0px;
+  
+  animation-name: example1;
+  animation-duration: 4s;
+}
+@keyframes example1 {
+    from {
+        width: 50px;
+    }
+    to {
+        width: 50px;
+    }
+  } */
+  
